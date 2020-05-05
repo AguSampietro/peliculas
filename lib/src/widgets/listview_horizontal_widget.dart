@@ -14,8 +14,8 @@ class ListViewHorizontal extends StatelessWidget {
     
 
     return Container(
-          margin: EdgeInsets.symmetric(vertical: 20.0),
-          height: 180.0,
+          margin: EdgeInsets.symmetric(vertical: 10.0),
+          height: 170.0,
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: _listaPeliculas(),
